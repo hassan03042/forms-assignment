@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS & CSS</title>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+<body>
+    <form>
+
+    <h1> <ins> FORMS </ins></h1>
+
+
+    <label for="fullname">
+        <b>Full Name <sup> *</sup></b>
+        <br />
+        <br />
+        <input name="fullname" label="text" id="fullname" type="text" placeholder="Enter Your Full Name" required>
+    </label>
+    <br />
+    <br />
+    <br />
+
+    <label for="email">
+        <b> Email </b>
+        <br />
+        <br />
+        <input name="email" label="text" id="email" type="email" placeholder="Enter Your Email Address">
+    </label>
+    <br />
+    <br />
+    <br />
+
+
+    <b> Select City</b>
+    <br />
+    <br />
+    <select name="city" select="city" id="city">
+        <option value="">Select Your City</option>
+        <option value="khi">Karachi</option>
+        <option value="lhr">Lahore</option>
+        <option value="fais">Faisalabad</option>
+        <option value="hyd">Hyderabad</option>
+    </select>
+
+    <br />
+    <br />
+    <br />
+
+    <label for="cnic">
+        <b> CNIC</b>
+        <br />
+        <br />
+        <input name="cnic" id="cnic" maxlength="13" type="number" placeholder="Enter Your CNIC Number">
+    </label>
+    <br />
+    <br />
+    <br />
+
+    <label for="date of bitrh">
+        <b> Date Of Birth</b>
+        <br />
+        <br />
+        <input name="dateofbirth" id="date of birth" required type="date">
+    </label>
+    <br />
+    <br />
+    <br />
+
+    <label for="number">
+        <b> Phone Number</b>
+        <br />
+        <br />
+        <input name="number" id="number" maxlength="11" required type="number" placeholder="Enter Phone Number">
+
+    </label>
+    <br />
+    <br />
+
+    <h3> Gender</h3>
+
+
+    <label for="male">
+        <input
+        id="male"
+        type="radio"
+        name="gender"
+        value="male" /> Male
+    </label>
+
+    <label for="female">
+        <input
+        id="female"
+        type="radio"
+        name="gender"
+        value="female" /> Female
+    </label>
+    <br />
+    <br />
+
+    <h3> Select Your Subjects</h3>
+
+    <label for="math">
+        <input
+        id="math"
+        type="checkbox"
+        name="subject">
+        Math
+    </label>
+
+    <label for="accounts">
+        <input
+        id="accounts"
+        type="checkbox"
+        name="subject">
+        Accounts
+    </label>
+
+    <label for="urdu">
+        <input
+        id="urdu"
+        type="checkbox"
+        name="subject">
+        Urdu
+    </label>
+
+    <br />
+    <br />
+    <br />
+
+    <label for="file">
+      <b> Upload Your Image</b>
+      <br />
+      <br />
+        <input
+        id="file"
+        type="file"
+        name="image">
+
+    </label>
+
+    <br />
+    <br />
+    <br />
+
+    <label for="url">
+        <b> Upload Your <abbr title="SOCIAL MEDIA">S.M</abbr> URL</b>
+        <br />
+        <br />
+        <input
+        id="url"
+        type="url"
+        size="24"
+        name="socialmediaurl"
+        placeholder=" Any Social Media URL (optional)">
+    </label>
+    <br />
+    <br />
+    <br />
+
+
+    <fieldset>
+        <legend><b><i> IMPORTANT INFO </i></b><sup>*</sup></legend>
+        <br />
+
+        <label for="username">
+            <b> Username</b>
+            <br />
+            <br />
+
+            <input
+            type="text"
+            id="username"
+            name="username"
+            size="10"
+            placeholder="Username">
+        </label>
+        <br />
+            <br />
+            <br />
+
+        <label for="password">
+            <b> Password</b>
+            <br />
+            <br />
+
+            <input
+            type="password"
+            id="password"
+            name="password"
+            size="10"
+            placeholder="Password">
+        </label>
+    </fieldset>
+
+    <br />
+    <br />
+    <br />
+
+    <input type="submit">
+
+
+
+</form>
+</body>
+</html>
